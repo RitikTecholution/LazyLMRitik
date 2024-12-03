@@ -1,0 +1,27 @@
+{
+  "name": "lazy-lm-ritik-ts-001",
+  "version": "1.0.0",
+  "description": "A TypeScript project for lazy language modeling",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "anthropic": "^1.0.0",
+    "@anthropic-ai/sdk": "^0.4.3",
+    "dotenv": "^16.0.3",
+    "ts-dataclass": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/jest": "^26.0.20",
+    "typescript": "^4.9.5",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.2",
+    "ts-node": "^10.9.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
