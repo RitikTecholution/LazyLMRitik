@@ -1,0 +1,27 @@
+{
+  "name": "lazylmritik-ts-001",
+  "version": "1.0.0",
+  "description": "A TypeScript project for LazyLM",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": ["lazylm", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "anthropic": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^18.15.11",
+    "@types/uuid": "^9.0.1",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "typescript": "^5.0.4",
+    "ts-node": "^10.9.1"
+  }
+}
