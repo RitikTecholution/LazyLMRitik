@@ -1,0 +1,32 @@
+# Python doesn't have a direct equivalent to tsconfig.json
+# Instead, we'll create a setup.py file to configure the Python project
+
+from setuptools import setup, find_packages
+
+setup(
+    name="lazy_lm_ritik",
+    version="0.0.1",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    install_requires=[
+        "anthropic",  # Equivalent to the Anthropic dependency in package.json
+        "python-dotenv",  # For environment variable management
+        "flask",  # Equivalent to Express in Node.js
+        "flask-restx",  # For Swagger documentation
+    ],
+    extras_require={
+        "dev": [
+            "pytest",  # Equivalent to Jest for testing
+            "mypy",  # For type checking (similar to TypeScript's type system)
+        ]
+    },
+    python_requires=">=3.7",  # Equivalent to the Node.js version specified in package.json
+    author="Ritik Malik",
+    author_email="ritik18406@iiitd.ac.in",
+    description="A Python library for lazy evaluation of language model interactions",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    license="Apache-2.0",
+    keywords=["lazy evaluation", "language model", "AI", "NLP"],
+    url="https://github.com/ritikmalik1820/LazyLMRitik",
+)
