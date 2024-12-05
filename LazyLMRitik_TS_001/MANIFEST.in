@@ -1,0 +1,11 @@
+# This file is kept for reference from the original Python project.
+# It is not actively used in the TypeScript/Node.js version of the project.
+
+include LICENSE
+include README.md
+include nbs/*.ipynb
+include nbs/*.yml
+include nbs/*.md
+include nbs/*.css
+include nbs/*.html
+include nbs/imgs/*

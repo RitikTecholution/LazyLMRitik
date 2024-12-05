@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "LazyLMRitik"
+  site-url: "https://LazyLMRitik.github.io/LazyLMRitik"
+  description: "A library for lazy loading of language models"
+  repo-branch: main
+  repo-url: "https://github.com/LazyLMRitik/LazyLMRitik"

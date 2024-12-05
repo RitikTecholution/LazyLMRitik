@@ -1,0 +1,11 @@
+# This file is used in Python projects to specify additional files to include in a source distribution.
+# In a Node.js/TypeScript project, this file is not directly used, but its contents can guide us in
+# configuring which files to include in the package.
+
+include *.md
+include *.yml
+include *.yaml
+include *.css
+include *.ini
+include LICENSE
+recursive-include images *.png *.jpg *.jpeg *.gif *.svg
