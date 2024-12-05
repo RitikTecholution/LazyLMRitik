@@ -1,0 +1,35 @@
+{
+  "name": "nbdev-template",
+  "version": "1.1.2",
+  "description": "An example project using nbdev",
+  "keywords": ["nbdev", "template"],
+  "author": "Your Name",
+  "email": "your.email@example.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fastai/nbdev_template"
+  },
+  "main": "src/index.ts",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastcore": "^1.0.0",
+    "nbdev": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0",
+    "jest": "^27.0.0",
+    "ts-jest": "^27.0.0",
+    "typescript": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
