@@ -1,0 +1,51 @@
+{
+  "lib_name": "lazy_lm",
+  "version": "0.0.1",
+  "description": "A library for lazy loading of language models",
+  "keywords": [
+    "nbdev",
+    "language models",
+    "lazy loading"
+  ],
+  "author": "Ritik Jain",
+  "author_email": "ritik.jain2604@gmail.com",
+  "copyright": "2023 onwards, Ritik Jain",
+  "license": "Apache Software License 2.0",
+  "status": "2 - Pre-Alpha",
+  "min_python": "3.7",
+  "audience": [
+    "Developers",
+    "Data Scientists"
+  ],
+  "language": "English",
+  "requirements": [
+    "nbdev",
+    "fastcore",
+    "python-dotenv",
+    "setuptools",
+    "configparser"
+  ],
+  "dev_requirements": [
+    "pytest",
+    "black",
+    "jupyter"
+  ],
+  "console_scripts": {},
+  "nbs_path": "nbs",
+  "lib_path": "lazy_lm",
+  "doc_path": "docs",
+  "recursive": true,
+  "branch": "main",
+  "custom_sidebar": false,
+  "host": "github",
+  "repo_name": "LazyLMRitik",
+  "repo_url": "https://github.com/ritikjain51/LazyLMRitik",
+  "tst_flags": "notest",
+  "black_formatting": false,
+  "readme_nb": "index.ipynb",
+  "allowed_metadata_keys": "",
+  "allowed_cell_metadata_keys": "",
+  "jupyter_hooks": true,
+  "clean_ids": true,
+  "clear_all": false
+}

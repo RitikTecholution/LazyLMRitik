@@ -1,0 +1,41 @@
+/* These styles should be applied to the relevant HTML elements using Tailwind classes */
+
+/* .cell */
+<div class="mb-4">
+  <!-- Cell content -->
+</div>
+
+/* .cell > .sourceCode */
+<div class="mb-4">
+  <div class="mb-0">
+    <!-- Source code content -->
+  </div>
+</div>
+
+/* .cell-output > pre */
+<div class="cell-output">
+  <pre class="mb-0">
+    <!-- Output content -->
+  </pre>
+</div>
+
+/* .cell-output > pre, .cell-output > .sourceCode > pre, .cell-output-stdout > pre */
+<div class="cell-output">
+  <pre class="ml-3 mt-0 bg-transparent border-l-2 border-lightsalmon rounded-none">
+    <!-- Output content -->
+  </pre>
+</div>
+
+/* .cell-output > .sourceCode */
+<div class="cell-output">
+  <div class="border-none bg-transparent mt-0">
+    <!-- Source code content -->
+  </div>
+</div>
+
+/* div.description */
+<div class="pl-0.5 pt-1.5 italic text-lg opacity-70">
+  <!-- Description content -->
+</div>
+
+/* Note: You'll need to apply these classes to the appropriate HTML elements in your templates or components */

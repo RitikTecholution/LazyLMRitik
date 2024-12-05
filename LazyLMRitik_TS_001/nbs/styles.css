@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cell {
+    @apply mb-4;
+  }
+
+  .cell > .sourceCode {
+    @apply mb-0;
+  }
+
+  .cell-output > pre {
+    @apply mb-0;
+  }
+
+  .cell-output > pre,
+  .cell-output > .sourceCode > pre,
+  .cell-output-stdout > pre {
+    @apply ml-3 mt-0 bg-transparent border-l-2 border-lightsalmon rounded-tl-none rounded-tr-none;
+  }
+
+  .cell-output > .sourceCode {
+    @apply border-none bg-transparent mt-0;
+  }
+
+  .description {
+    @apply pl-0.5 pt-1.5 italic text-[135%] opacity-70;
+  }
+}
