@@ -1,0 +1,55 @@
+{
+  "name": "LazyLMRitik",
+  "type": "folder",
+  "children": [
+    {
+      "name": "lazy_lm",
+      "type": "folder",
+      "children": [
+        {
+          "name": "core.go",
+          "type": "file",
+          "content": "// This file will be implemented in Go",
+          "language": "go"
+        }
+      ]
+    },
+    {
+      "name": "nbdev-template-1.1.2",
+      "type": "folder",
+      "children": [
+        {
+          "name": "README.md",
+          "type": "file",
+          "content": "This file will be overwritten by `index.ipynb`\n",
+          "language": "markdown"
+        },
+        {
+          "name": "go.mod",
+          "type": "file",
+          "content": "// This file will contain Go module information",
+          "language": "go"
+        }
+      ]
+    },
+    {
+      "name": "nbs",
+      "type": "folder",
+      "children": []
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "content": "# LazyLM\n\n<!-- The content of the README.md file remains unchanged -->\n",
+      "language": "markdown"
+    },
+    {
+      "name": "go.mod",
+      "type": "file",
+      "content": "// This file will contain Go module information",
+      "language": "go"
+    }
+  ],
+  "git_url": null,
+  "branch": "main"
+}
